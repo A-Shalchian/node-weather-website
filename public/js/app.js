@@ -1,12 +1,5 @@
 console.log("client side javascript")
 
-
-// fetch('https://puzzle.mead.io/puzzle').then((response) => {
-//     response.json((data) => {
-//         console.log(data)
-//     })
-// })
-
 // fetch('http://localhost:3000/weather?address='+ location).then((response) => {
 //     response.json((data) => {
 //         if (data.error) {
@@ -23,8 +16,6 @@ const search = document.querySelector('input')
 
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
-
-
 
 
 weatherForm.addEventListener('submit',(e) => {
